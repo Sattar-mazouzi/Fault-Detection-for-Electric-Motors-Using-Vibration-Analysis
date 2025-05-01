@@ -19,7 +19,6 @@ else
     warning('Incorrect MATLAB release! Expected: %s, but found: %s', required_release, current_release);
 end
 % set model parameter and constants
-fprintf("%s \n",">> Setting the necessary parameters...");
+fprintf("%s \n",">> Setting the necessary parameters and constants...");
 run('src\parameters.m'); 
-
 fprintf("%s \n",">> Project setup is completed!");

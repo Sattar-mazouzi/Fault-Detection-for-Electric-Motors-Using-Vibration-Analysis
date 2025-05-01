@@ -1,2 +1,1 @@
-simlog = sim('DCMotor');  
-simlog.get('InitialConditions')
+out = sim('DCMotor', 'StopTime', '30');  
