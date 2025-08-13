@@ -3,7 +3,7 @@ clear ;
 disp('>> Setting up the MATLAB environment...');
 
 % Define the required MATLAB release
-required_release = 'R2024b' ; % Change this to the release you want to check
+required_release = 'R2025a' ; % Change this to the release you want to check
 
 % Get MATLAB version information
 %info = ver('MATLAB');
